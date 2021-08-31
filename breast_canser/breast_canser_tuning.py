@@ -1,5 +1,6 @@
 """
 Esse código aqui basicamente permite que a gente mude os parametros das func
+e tambem compare conjuntos diferentes de parametros.
 """
 
 

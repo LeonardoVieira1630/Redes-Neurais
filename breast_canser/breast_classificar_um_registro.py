@@ -2,7 +2,7 @@
 Nessa rede, desenvolvemos baseado no tuning e utilizamos os 
 dados que melhor performam dado os teste nesse programa.
 
-Não há base de dados de tete aqui pois ja é sabido os melhores
+Não há base de dados de teste aqui pois ja é sabido os melhores
 valores para essa rede.
 
 Alem disso, no final do programa fazemos a classificação de 

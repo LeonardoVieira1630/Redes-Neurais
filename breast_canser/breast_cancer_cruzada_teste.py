@@ -1,3 +1,7 @@
+"""
+Tentando melhorar o arquivo rede para que a taxa de acerto vire 0,9
+"""
+
 import pandas as pd
 from keras.models import Sequential
 from keras.layers import Dense

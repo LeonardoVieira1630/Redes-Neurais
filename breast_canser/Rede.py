@@ -1,3 +1,7 @@
+"""
+Esse arquivo contem uma uma função que cria uma rede neural
+"""
+
 
 from keras.layers.core import Dropout
 import pandas as pd
@@ -22,17 +26,17 @@ def criarRede():
     -> input_dim é a dimensão/quantidade de parametros da entradas
     -> kernel_inicializer indica como iremos inicializar os coeficientes.
     """
-    rede_neural.add(Dense(units=32, activation='relu',kernel_initializer='random_uniform', input_dim= 30))
+    rede_neural.add(Dense(units=8, activation='relu',kernel_initializer='random_uniform', input_dim= 30))
     #zera 20% dos neurônios
     rede_neural.add(Dropout(0.2)) #diminue o desvio padrão dos resultados -> sem overfiting
 
     #adicionando mais uma camada
-    rede_neural.add(Dense(units=32, activation='relu',kernel_initializer='random_uniform'))
+    rede_neural.add(Dense(units=8, activation='relu',kernel_initializer='random_uniform'))
     #zera 20% dos neurônios
     rede_neural.add(Dropout(0.2))
 
     #adicionando mais uma camada
-    rede_neural.add(Dense(units=32, activation='relu',kernel_initializer='random_uniform'))
+    rede_neural.add(Dense(units=8, activation='relu',kernel_initializer='random_uniform'))
     #zera 20% dos neurônios
     rede_neural.add(Dropout(0.2))
 

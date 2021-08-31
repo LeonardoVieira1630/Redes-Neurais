@@ -1,3 +1,8 @@
+"""
+Arquivo carrega uma rede neural ja salva e testa ela.
+Isso faz com que não precisemos treinar a rede todas as vezes.
+"""
+
 import numpy as np
 import pandas as pd
 from keras.models import model_from_json
